@@ -1,0 +1,9 @@
+# Local issue-spec workflow drafts (generated comments live in GitHub issues)
+.issue-spec/*.md
+.issue-spec/*.json
+!.issue-spec/config.json
+
+# Agent / IDE local state
+.agents/
+.trae/
+.claude/.local/
