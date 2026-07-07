@@ -7,11 +7,13 @@
 [![Skill Type](https://img.shields.io/badge/Skill%20Type-Pure%20AI%20Reasoning-blue.svg)]()
 [![Domain](https://img.shields.io/badge/Domain-Culture%20%26%20Divination-green.svg)]()
 
+> **Quick start**: Copy `skills/tm-divination/` into your Agent Skills directory, or run `claude skills add skills/tm-divination` if you are using Claude Code.
+
 ---
 
 ## 🌟 概述
 
-**TM（天命）推演** 是一个面向 Claude Code / 兼容 Agent Skills 开放标准的 AI Skill。它基于四柱八字、紫微斗数、周易、黄历等中国传统国学体系，为用户提供：
+**TM（天命）推演** 是一个遵循 [Agent Skills 开放标准](https://vortezwohl.github.io/agent/2026/03/02/AgentSkills%E5%BC%80%E6%94%BE%E6%A0%87%E5%87%86.html) 的 AI Skill。它基于四柱八字、紫微斗数、周易、黄历等中国传统国学体系，为用户提供：
 
 - 个人命盘与先天气质分析
 - 今日 / 明日 / 本周运势推演
@@ -121,10 +123,15 @@ cp -r skills/tm-divination ./.claude/skills/
 ```
 tm-divination/
 ├── skills/
-│   └── tm-divination/
-│       └── SKILL.md      # Skill 核心入口（元数据 + 通用逻辑 + 资源引用）
-├── README.md             # 本文件
-└── LICENSE               # MIT 许可证
+│   ├── tm-divination/          # Skill 核心入口
+│   │   └── SKILL.md
+│   └── tm-divination-verify/   # 输出校验 Skill
+│       └── SKILL.md
+├── tests/
+│   └── tm-divination/          # 对抗与黄金测试用例
+├── README.md                   # 本文件
+├── VERIFY.md                   # 验证指南
+└── LICENSE                     # MIT 许可证
 ```
 
 > 根据 [Agent Skills 开放标准](https://vortezwohl.github.io/agent/2026/03/02/AgentSkills%E5%BC%80%E6%94%BE%E6%A0%87%E5%87%86.html)，Skill 目录名与 `SKILL.md` 中的 `name` 字段完全一致。

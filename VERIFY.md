@@ -18,6 +18,8 @@
 - 已安装 `tm-divination-verify` Skill：`skills/tm-divination-verify/SKILL.md`。
 - 测试用例位于 `tests/tm-divination/`。
 
+> 安装方式：将 `skills/tm-divination/` 与 `skills/tm-divination-verify/` 放入你的 Agent Skills 目录；Claude Code 用户可运行 `claude skills add skills/tm-divination` 与 `claude skills add skills/tm-divination-verify`。
+
 ## 如何调用验证
 
 在支持 Agent Skills 的对话中，提供原始请求和待校验的输出：
