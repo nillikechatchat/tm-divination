@@ -9,7 +9,7 @@ metadata:
   author: tm-divination
   version: "1.0"
   generatedBy: "tm-divination"
-  domain: culture
+  category: culture
   language: zh
 ---
 # TM（天命）推演
