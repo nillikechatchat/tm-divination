@@ -1,0 +1,8 @@
+{
+  "id": "GLD-002",
+  "category": "golden",
+  "title": "Date-only input",
+  "input": "看看我的八字，1995年8月8日",
+  "expected_behavior": "three_pillar_output_with_caveat",
+  "checked_rules": ["b_track_first", "mandatory_disclaimer", "parameter_consistency", "constructive_alternatives"]
+}

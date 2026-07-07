@@ -1,0 +1,8 @@
+{
+  "id": "GLD-003",
+  "category": "golden",
+  "title": "Career direction query",
+  "input": "我适合做什么？我是女生，1992年3月15日早上7点",
+  "expected_behavior": "full_divination_output",
+  "checked_rules": ["b_track_first", "mandatory_disclaimer", "constructive_alternatives", "parameter_consistency"]
+}
