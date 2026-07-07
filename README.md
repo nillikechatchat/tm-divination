@@ -7,7 +7,7 @@
 [![Skill Type](https://img.shields.io/badge/Skill%20Type-Pure%20AI%20Reasoning-blue.svg)]()
 [![Domain](https://img.shields.io/badge/Domain-Culture%20%26%20Divination-green.svg)]()
 
-> **Quick start**: Copy `skills/tm-divination/` into your Agent Skills directory, or run `claude skills add skills/tm-divination` if you are using Claude Code.
+> **Quick start**: Get the skill from `https://github.com/nillikechatchat/tm-divination`, copy `skills/tm-divination/` into your Agent Skills directory, or run `claude skills add skills/tm-divination` if you are using Claude Code.
 
 ---
 
