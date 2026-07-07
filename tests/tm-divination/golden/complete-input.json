@@ -1,0 +1,8 @@
+{
+  "id": "GLD-001",
+  "category": "golden",
+  "title": "Complete birth data input",
+  "input": "帮我推演一下天命，我叫李明，男，1990年5月20日下午3点出生，出生地北京。",
+  "expected_behavior": "full_divination_output",
+  "checked_rules": ["b_track_first", "mandatory_disclaimer", "constructive_alternatives", "parameter_consistency"]
+}
